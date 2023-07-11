@@ -72,7 +72,7 @@ body .first_banner .left_flex_box {
     display: flex;
     justify-content: stretch;
     margin: 32px 24px;
-    max-width: 60%
+    max-width: 60%;
 }
 
 body .first_banner .left_flex_box .image_container {
@@ -111,6 +111,131 @@ body .first_banner .right_flex_box .button_1 a {
     color: white;
 }
 
+/* Second Banner */
+body .second_banner {
+    display: inline-flex;
+    align-items: center;
+    background-color: white;
+    max-width: 100%;
+}
+
+body .second_banner .left_flex_box {
+    display: flex;
+    flex-flow: column wrap;
+    margin: 32px 24px;
+    width: 60%;
+    color: rgb(73, 73, 73)
+}
+
+body .second_banner .left_flex_box img {
+    width: 100%;
+}
+
+body .second_banner .left_flex_box .text_container_1 {
+    font-size: 2.2rem;
+    font-weight: bold;
+    margin-top: 32px;
+    margin-bottom: 24px;
+}
+
+body .second_banner .right_flex_box {
+    width: 40%;
+}
+
+body .second_banner .right_flex_box .information_container {
+    display: inline-flex;
+    align-content: center;
+}
+
+body .second_banner .right_flex_box .information_container .sub_left_flex_box {
+    width: 35%;
+    height: auto;
+    margin: 16px;
+}
+
+body .second_banner .right_flex_box .information_container .sub_left_flex_box img {
+    width: 100%;
+}
+
+body .second_banner .right_flex_box .information_container .sub_right_flex_box {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    width: 65%;
+}
+
+body .second_banner .right_flex_box .information_container:last-of-type {
+    background-color: rgb(196, 195, 195);
+}
+
+body .second_banner .right_flex_box .information_container  .text_container_1 {
+    color: rgb(73, 73, 73);
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+
+body .second_banner .right_flex_box .information_container  .text_container_2 {
+    margin: 8px none;
+}
+
+body .second_banner .right_flex_box .information_container .button_1 a {
+    text-decoration: none;
+    color: rgb(82, 175, 251);
+}
+
+/* Third Banner */
+body .third_banner {
+    display: flex;
+    background-color: rgb(196, 195, 195);
+}
+
+body .third_banner .flex_box {
+    width: 100%
+}
+
+body .third_banner .flex_box .text_container_1 {
+    color: rgb(73, 73, 73);
+    font-size: 2.2rem;
+    font-weight: bold;
+    text-align: center;
+    margin: 32px auto;
+}
+
+body .third_banner .flex_box .sub_flex_box {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    margin: 32px 72px;
+}
+
+body .third_banner .flex_box .sub_flex_box .career_container {
+    background-color: white;
+    max-width: 30%;
+    margin: 16px;
+}
+
+body .third_banner .flex_box .sub_flex_box .career_container img {
+    width: 100%;
+    height: auto;
+}
+
+body .third_banner .flex_box .sub_flex_box .career_container .sub_text_container_1 {
+    color: rgb(73, 73, 73);
+    font-weight: bold;
+    font-size: 1.3rem;
+    margin: 16px;
+}
+
+body .third_banner .flex_box .sub_flex_box .career_container .sub_text_container_2 {
+    color: rgb(73, 73, 73);
+    margin: 8px 16px;
+} 
+
+body .third_banner .flex_box .sub_flex_box .career_container .sub_text_container_3 {
+    color: rgb(73, 73, 73);
+    font-size: .9rem;
+    margin: 8px 16px;
+} 
 
 video {
     width: 20%;
