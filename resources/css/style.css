@@ -237,6 +237,94 @@ body .third_banner .flex_box .sub_flex_box .career_container .sub_text_container
     margin: 8px 16px;
 } 
 
-video {
-    width: 20%;
+/* Fourth Banner */
+body .fourth_banner {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    width: 100%;
+}
+
+body .fourth_banner .text_container_1 {
+    color: rgb(73, 73, 73);
+    font-size: 2.2rem;
+    font-weight: bold;
+    text-align: center;
+    margin: 32px auto;
+}
+
+body .fourth_banner .flex_box {
+    display: inline-flex;
+}
+
+body .fourth_banner .flex_box .sub_left_flex_box {
+    display: flex;
+    flex-flow: column wrap;
+    max-width: 60%;
+    margin: 32px 24px;
+}
+
+body .fourth_banner .flex_box .sub_left_flex_box video {
+    width: 100%;
+}
+
+body .fourth_banner .flex_box .sub_left_flex_box .sub_text_container_1 {
+    color: rgb(73, 73, 73);
+    font-size: 1.3rem;
+    font-weight: bold;
+    margin: 24px none 8px none;
+}
+
+body .fourth_banner .flex_box .sub_left_flex_box .sub_text_container_2 {
+    color:rgb(73, 73, 73);
+}
+
+body .fourth_banner .flex_box .sub_right_flex_box 
+ {
+    display: flex;
+    flex-flow: column wrap;
+    max-width: 40%;
+    margin: 32px 12px;
 } 
+
+body .fourth_banner .flex_box .sub_right_flex_box .information_container{
+    display: inline-flex;
+    align-items: center;
+}
+
+body .fourth_banner .flex_box .sub_right_flex_box .information_container img {
+    width: 35%;
+    height: auto;
+    margin: 16px;
+}
+
+body .fourth_banner .flex_box .sub_right_flex_box .information_container .sub_text_container_1 {
+    color: rgb(73, 73, 73);
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+body .fourth_banner .flex_box .sub_right_flex_box .information_container:first-of-type {
+    background-color: rgb(196, 195, 195);
+}
+
+body .fourth_banner .flex_box .sub_right_flex_box .information_container .sub_text_container_2 {
+    color: rgb(73, 73, 73)
+}
+
+/* Footer */
+footer {
+    display: inline-flex;
+    justify-content: space-between;
+    margin: 16px 24px;
+    border-top: 1px solid rgb(196, 195, 195);
+    color:rgb(73, 73, 73);
+}
+
+footer .terms_and_privacy {
+    display: inline-flex;
+}
+
+footer .term, footer .privacy {
+    margin: auto 5px;
+}
